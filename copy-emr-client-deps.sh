@@ -117,7 +117,7 @@ cp -prL /emr/instance-controller/lib/info/job-flow-state.txt emr/instance-contro
 #mkdir -p var/aws/emr
 
 mkdir -p usr/share/aws
-cp -prL /usr/share/aws/emr usr/share/aws/emr
+cp -prL /usr/share/aws usr/share/aws || true
 
 mkdir -p opt/aws
 cp -prL /opt/aws opt/
