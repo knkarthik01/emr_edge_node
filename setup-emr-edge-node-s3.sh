@@ -67,7 +67,7 @@ sudo cp -pr usr/bin/* /usr/bin || true
 sudo cp -pr usr/lib/* /usr/lib || true
 sudo mkdir -p /usr/share/aws
 sudo mkdir -p /var/log/kerberos
-sudo cp -pr usr/share/aws/emr /usr/share/aws/ || true
+sudo cp -pr usr/share/aws/* /usr/share/aws/ || true
 sudo mkdir -p /opt/aws
 sudo cp -pr opt/aws/* /opt/aws/
 sudo cp -pr emr /
